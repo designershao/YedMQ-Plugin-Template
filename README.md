@@ -1,0 +1,1 @@
+# YedMQ-Plugin-Template

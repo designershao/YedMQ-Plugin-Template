@@ -1,0 +1,9 @@
+[template]
+cargo_generate_version = ">=0.9.0"
+
+[hooks]
+pre = ["pre-script.rhai"]
+
+[placeholders]
+plugin_name = { type="string", prompt="Your plugin name?"}
+description = { type="string", prompt="Description for the crate?" }
