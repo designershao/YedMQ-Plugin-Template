@@ -1,0 +1,7 @@
+[plugin]
+name = "{{ plugin_name }}"
+author = "{{ authors }}"
+description = "{{ description }}"
+version = "0.0.1"
+entry = "./{{ lib_name }}"
+priority = 1000
